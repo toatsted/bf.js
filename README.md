@@ -1,6 +1,6 @@
 # bf.js
 
-<h1 style="text-align: center;">brainf$#@ interpreter</h1>
+<h3 style="text-align: center;">brainf$#@ interpreter</h3>
 
 ___
 
