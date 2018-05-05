@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/toatsted/bf.js/issues"
   },
-  "homepage": "https://github.com/toatsted/bf.js#readme"
+  "homepage": "https://github.com/toatsted/bf.js#readme",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "inquirer": "^5.2.0"
+  }
 }
