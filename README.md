@@ -3,4 +3,4 @@
 
 ---
 
-syntax: python index.py <filename>
+# syntax: `python index.py <filename>`
