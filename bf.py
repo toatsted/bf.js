@@ -1,3 +1,5 @@
+import sys
+
 def read(query):
 	output = ''
 
@@ -72,3 +74,9 @@ def read(query):
 		queryIndex += 1
 
 	return output
+
+f = open(sys.argv[1], 'r')
+query = f.read().rstrip('\n')
+f.close()
+
+print('\n', read(query), '\n')
