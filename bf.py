@@ -75,8 +75,14 @@ def read(query):
 
 	return output
 
-f = open(sys.argv[1], 'r')
-query = f.read().rstrip('\n')
-f.close()
 
-print('\n', read(query), '\n')
+def main():
+	f = open(sys.argv[1], 'r')
+	query = f.read().rstrip('\n')
+	f.close()
+
+	print('\n', read(query), '\n')
+
+if __name__ == '__main__':
+	main()
+
