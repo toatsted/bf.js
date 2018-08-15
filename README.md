@@ -3,4 +3,12 @@
 
 ---
 
-# syntax: `python bf.py <filename>`
+
+# syntax: 
+
+
+`python main.py`
+
+# OR
+
+`python bf.py <filename>`
