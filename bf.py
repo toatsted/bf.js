@@ -1,5 +1,3 @@
-import sys
-
 def read(query):
 	output = ''
 
@@ -75,7 +73,6 @@ def read(query):
 
 	return output
 
-
 def main():
 	f = open(sys.argv[1], 'r')
 	query = f.read().rstrip('\n')
@@ -84,5 +81,5 @@ def main():
 	print('\n', read(query), '\n')
 
 if __name__ == '__main__':
+	import sys 
 	main()
-
